@@ -1,0 +1,61 @@
+Ruby Projects Visualization
+And tracing execution in realtime
+8 Mar 2018
+Tags: blacklane, rubrowser, ruby
+
+Emad Elsaid
+Software Engineer, Blacklane
+emad.elsaid@blacklane.com
+http://www.emadelsaid.com
+@emad__elsaid
+
+* Classes dependencies
+.code -numbers ruby-realtime-tracing/classes.rb
+
+* Graph
+.image ruby-realtime-tracing/classes.png
+
+* Parser gem
+.image ruby-realtime-tracing/parser.png 600 _
+
+* AST for ruby
+.image ruby-realtime-tracing/ast.png
+
+* D3js
+.image ruby-realtime-tracing/d3.png 500 _
+
+* Rubrowser gem
+.image ruby-realtime-tracing/rubrowser.png 500 _
+
+* Usage
+- gem install rubrowser
+- rubrowser -o output.html
+
+* Aphrodite graph
+.image ruby-realtime-tracing/aphrodite.png 600 _
+
+* Aphrodite decorators
+.image ruby-realtime-tracing/aphrodite-decorators.png _ 1000
+
+* Highlight
+.image ruby-realtime-tracing/highlight.png _ 1000
+
+* Layout
+.image ruby-realtime-tracing/layout.png _ 300
+
+* Node Insights
+.image ruby-realtime-tracing/insights.png 400 _
+
+* Realtime execution tracing
+.image ruby-realtime-tracing/gemfile.png 400 _
+.image ruby-realtime-tracing/init.png 100 _
+
+
+* Trace
+.image ruby-realtime-tracing/trace.png 500 _
+
+* Live Demo
+
+* Questions
+
+* Thank you

@@ -1,0 +1,94 @@
+Linux Kernel
+A brief introduction
+16 Feb 2018
+Tags: linux, kernel, blacklane
+
+Emad Elsaid
+Software Engineer, Blacklane
+emad.elsaid@blacklane.com
+http://www.emadelsaid.com
+@emad__elsaid
+
+* Disclaimer
+.image images/i_have_no_idea_what_i_am_doing.jpg _ 700
+
+* Agenda
+- Process Management
+- Process Scheduling
+- System Calls
+- Kernel Data Structures
+- Interrupts and Interrupt Handlers
+- Bottom Halves and Deferring Work
+- An Introduction to Kernel Synchronization
+- Kernel Synchronization Methods
+- Timers and Time Management
+- Memory Management
+- The Virtual Filesystem
+- The Block I/O Layer
+
+* Presentation format
+.image images/i_am_not_convinced_we_wasted_enough_time_on_this.png
+
+
+* Process Management
+- Virtualization
+- fork(), exec(), wait()
+- Process tree / Process List
+- Copy-On-Write
+
+* Process Scheduling
+- Cooperative multitasking VS Preemptive multitasking
+- I/O-Bound VS Processor-Bound Processes
+- Process Priority (Nice -20:+19)
+- Timeslice
+- The linux scheduling algorithm
+
+
+* System Calls
+- System Call Handler
+- trap, transmit, execute, return
+
+* Kernel Data Structures
+- Linked lists (list_head)
+- Queues (kfifo)
+- Maps (idr)
+- Binary Trees (btree, BST, rbtree)
+
+* Interrupts and Interrupt Handlers
+- Top halves VS bottom halves
+
+* An Introduction to Kernel Synchronization
+- Critical region
+- Atomic Integer Operations
+- Spinlocks
+- Semaphores
+- Mutexes
+- The Big Kernel Lock
+
+* Timers and Time Management
+- The tick rate (HZ)
+- jiffies
+- Real Time clock (RTC)
+- Programmable Interrupt Timer (PIT)
+- Timers
+- Delays
+
+* Memory Management
+- Pages
+- Zones
+- Slab Layer
+
+* The Virtual Filesystem
+- Common Filesystem interface
+- Superblock object
+- inode object
+- dentry
+- file
+
+* The Block I/O Layer
+- Sector, Block, Buffer
+- BIO structure
+- IO Scheduler
+
+* Questions
+.image images/problem.jpg _ 400

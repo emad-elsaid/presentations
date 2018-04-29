@@ -1,0 +1,70 @@
+VIM
+An introduction
+30 Apr 2018
+Tags: vim, blacklane
+
+Emad Elsaid
+Software Engineer, Blacklane
+emad.elsaid@blacklane.com
+http://www.emadelsaid.com
+@emad__elsaid
+
+* Agenda
+- Install VIM
+- Starting and exiting VIM
+- Modes
+- Normal mode
+- Motion
+- Commands
+- Combining arguments with commands and motion
+- Search
+- Keymap CheatSheet
+
+
+* Install VIM
+- Linux: apt-get install vim, pacman -S vim ...etc
+- Mac: brew install vim
+
+* Starting and exiting VIM
+- Open a terminal
+- VIM file.txt
+- Save and Exit ":wq"
+- Exit without save: ":q!"
+
+* Modes
+- Normal mode "esc"
+- Insert mode "i, a"
+- Visual mode "v, V"
+- Command-line mode ":"
+
+* Motion
+- By character "h, j, k, l"
+- By word "w, e, b"
+- By block "{, }"
+- By page "^f, ^b"
+- By line "gg, G"
+- Line start and end "0, $"
+- Find and until "f<char>, t<char>" ";"
+- Arguments
+
+* Commands
+- Copy(Yank), Delete, Paste "y, d, p" , "yy, dd"
+- Repeating last command "."
+- Undo "u"
+- Save ":w"
+
+* Combining arguments with commands and motion
+- <argument> <command> <motion>
+- Move 3 words `3e`
+- Delete 3 lines `3dd`
+- Delete until third ( `3dt(`
+
+* Search
+- Search "/<pattern>, ?<pattern>, n, N"
+- Search and replace (substitute) ":%s/word/replacement/"
+
+* Keymap CheatSheet
+.image vim/vim_keys.png _ 1000
+
+* Questions?
+.image images/questions.png _ 800

@@ -1,0 +1,94 @@
+Pair Programming
+The Rick and Morty episode
+24 May 2018
+Tags: blacklane, practice, pairing
+
+Emad Elsaid
+Software Engineer, Blacklane
+emad.elsaid@blacklane.com
+http://www.emadelsaid.com
+@emad__elsaid
+
+* Agenda
+- What?
+- Local Perspective
+- Roles
+- When?
+- Variations
+- Results
+- Why?
+- A Catalyst for pairing
+- Mob programming
+- Questions
+
+* What?
+
+C2 wiki
+
+  A practice in which two engineers participate in one development effort at one workstation.
+  Each member performs the action the other is not currently doing:
+  While one types in UnitTests the other thinks about the class that will satisfy the test
+
+Wikipedia
+
+  Pair programming is an agile software development technique in which two
+  programmers work together at one workstation. One, the driver, writes code while
+  the other, the observer or navigator
+
+* Local Perspective
+.image pair-programming/perspective.jpg _ 800
+
+* A Navigator
+.image pair-programming/navigator.jpg _ 800
+
+* A Driver
+.image pair-programming/driver.png _ 800
+
+* When?
+- Code review
+- Novice developer walkthrough
+- Large Intergalactic Interdimensional story
+
+* Variations
+It depends on the engineers pair level of skills
+
+* Expert-Expert
+.image pair-programming/expert-expert.jpg _ 800
+
+* Expert-Novice
+.image pair-programming/expert-novice.gif _ 400
+.image pair-programming/expert-novice2.jpg _ 400
+
+* Novice-Novice
+.image pair-programming/novice-novice.jpg _ 800
+
+* Results
+The good
+.image pair-programming/result2.gif _ 800
+
+* Results
+The bad
+.image pair-programming/result1.jpg _ 800
+
+* Results
+- Higher quality code
+- More certainty
+- Knowledge is shared
+- Short development time per story
+- Better communication
+
+* Why?
+- We are afraid of looking stupid
+- Nobody knows every implementation detail
+- Your brain wonders around if it's idle
+- Social media at work is an escape mechanism when people are stuck
+
+* A Catalyst for pairing
+- Take less stories in your sprint
+- Review code on the same machine
+
+* Mob programming
+.image pair-programming/mob.png _ 800
+
+* Questions
+.image pair-programming/questions.jpg _ 800
